@@ -26,7 +26,7 @@ with open('./etc/secret_key.txt') as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rokportfolio.herokuapp.com']
 
 
 # Application definition
